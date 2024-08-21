@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+}
+
+ul {
+list-style-type: none ;
+}
+
+li {  
+display: inline;
+padding-left: 120px;
+}
+
+body{
+    margin: 0;
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;   
+}
+
+.barra-pesquisa{
+    background-color: rgba(0, 0, 255, 0.249);
+    margin-top: 0%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+   color: rgb(28, 132, 161)
+}
