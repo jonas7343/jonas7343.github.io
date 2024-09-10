@@ -30,3 +30,13 @@ a {
 a:hover {
    color: rgb(28, 132, 161)
 }
+
+.galeria {
+    width: 400px; 
+    height: 400px;
+    transition: transform 0.2s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
