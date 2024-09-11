@@ -23,7 +23,7 @@ body{
     margin-top: 0%;
 }
 
-a {
+a { 
     color: rgb(0, 0, 0);
 }
 
@@ -39,4 +39,25 @@ a:hover {
 
 .galeria img:hover {
     transform: scale(1.05);
+}
+
+h2 {
+    color:blueviolet; /*mudar cor da fonte*/
+
+}
+
+
+/*seleciona a classe biografia e elemento img */
+.biografia img {
+    width: 200px; /*mudar a largura (width)*/
+}
+
+.biografia p {
+    max-width: 50%; /*muda a largura do paragrafo*/
+}
+.biografia {
+    display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
